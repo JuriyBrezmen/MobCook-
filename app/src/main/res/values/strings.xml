@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="str_choose">Choose available ingredients:</string>
+    <string name="str_head">Welcome to MobCook!</string>
+    <string name="str_done">Search</string>
+    <string name="str_title">TITLE</string>
+    <string name="str_ingredients">Ingredients,ingredients,</string>
+    <string name="str_tutorial">tutorial tutorial tutorial tutorial tutorial tutorial tutorial tutorial</string>
+    <string name="str_potato">Potato</string>
+    <string name="str_tomatoes">Tomatoes</string>
+    <string name="str_cheese">Cheese</string>
+    <string name="str_carrot">Carrot</string>
+    <string name="str_salad">Salad</string>
+    <string name="str_onion">Onion</string>
+    <string name="str_milk">Milk</string>
+
+    <string name="tutorialPuree">Put the potatoes, whole, in a pot and cover with cold water. Salt the water. Bring to
+        a boil, and simmer until very tender, about 30 minutes, depending on size.
+    Meanwhile, drop the garlic, bay leaf, and thyme in a saucepan with the milk, bring to a boil, turn off the heat,
+        cover, and set aside to infuse 10 minutes. Pull out the garlic and herbs, and discard.
+    When the potatoes are done, drain them and peel while hot. Put them through a food mill set on the smallest
+        setting over a large pot. Beat in the butter a piece at a time. Bring the milk to a boil and beat it in, splash
+        by splash, until completely absorbed. You are looking for a very soft, fine puree, not unlike baby food! Check
+        the seasonings, and serve.</string>
+
+
+</resources>
