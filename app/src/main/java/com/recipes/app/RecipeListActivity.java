@@ -43,10 +43,6 @@ public class RecipeListActivity extends Activity {
         Toast.makeText(this, "Please select at least one ingredient",
                 Toast.LENGTH_LONG).show();
 
-        if(selectedIngredients.isEmpty()) {
-            Toast.makeText(this, "Please seect at least one ingredientl",
-                    Toast.LENGTH_LONG).show();
-        }
     }
 
     private ArrayList<Recipe> filter(ArrayList<String> selectedIngredients) {
