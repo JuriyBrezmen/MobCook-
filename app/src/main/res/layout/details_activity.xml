@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:background="#F5F5F5">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="vertical"
@@ -15,28 +16,52 @@
                 android:id="@+id/recipe_image"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/str_title"
-        android:id="@+id/recipe_title"/>
+        android:id="@+id/recipe_title"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#7B1FA2"
+        android:textSize="32sp"/>
 
     </LinearLayout>
 
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/str_ingredients"
-        android:id="@+id/recipe_ingredients"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/str_ingredients"
+            android:layout_gravity="right"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#212121"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/str_ingredients"
+            android:id="@+id/recipe_ingredients"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#616161"
+            android:layout_gravity="right"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp"
         android:text="@string/str_tutorial"
-        android:id="@+id/recipe_tutorial"/>
+        android:id="@+id/recipe_tutorial"
+        android:padding="16dp"/>
 
-
-
+    </ScrollView>
 </LinearLayout>

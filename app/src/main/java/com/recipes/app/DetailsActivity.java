@@ -34,8 +34,9 @@ public class DetailsActivity extends Activity {
         ArrayList ingredientsList = recipe.getIngredients();
         String s = "";
         for (int i = 0; i < ingredientsList.size(); i++) {
-            s +=  ingredientsList.get(i);
+            s +=  ingredientsList.get(i) + "\n" ;
           }
+
         ingredients.setText(s);
         }
     }

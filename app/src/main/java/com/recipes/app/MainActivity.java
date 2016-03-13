@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -46,6 +47,7 @@ public class MainActivity extends Activity {
         });
     }
 
+
     private void onSearchButtonClick() {
         ArrayList<String> ingredientsList = new ArrayList<>();
 
@@ -76,9 +78,16 @@ public class MainActivity extends Activity {
             ingredientsList.add(getResources().getString(R.string.str_milk));
         }
 
-        Intent intent = new Intent(MainActivity.this, RecipeListActivity.class);
-        intent.putStringArrayListExtra(KEY_INGREDIENTS, ingredientsList);
-        startActivity(intent);
+        if (!ingredientsList.isEmpty()) {
+            Intent intent = new Intent(MainActivity.this, RecipeListActivity.class);
+            intent.putStringArrayListExtra(KEY_INGREDIENTS, ingredientsList);
+            startActivity(intent);
+        }
+        else {
+            Toast.makeText(this, "Please select at least one ingredient",
+                    Toast.LENGTH_LONG).show();
+        }
+
     }
 
 }

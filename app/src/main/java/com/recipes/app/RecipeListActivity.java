@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -39,7 +40,13 @@ public class RecipeListActivity extends Activity {
                 startActivity(intent);
             }
         });
+        Toast.makeText(this, "Please select at least one ingredient",
+                Toast.LENGTH_LONG).show();
 
+        if(selectedIngredients.isEmpty()) {
+            Toast.makeText(this, "Please seect at least one ingredientl",
+                    Toast.LENGTH_LONG).show();
+        }
     }
 
     private ArrayList<Recipe> filter(ArrayList<String> selectedIngredients) {
@@ -62,7 +69,9 @@ public class RecipeListActivity extends Activity {
 
         }
         return availableRecipe;
+
     }
+
 
 
 }

@@ -24,7 +24,7 @@ public class RecipeStorage {
         recipe2.setIngredients(need2);
         recipe2.setImage(R.drawable.puree);
         recipe2.setTutorial(context.getResources().getString(R.string.tutorialPuree));
-
+        //end
         recipeList.add(recipe1);
         recipeList.add(recipe2);
 

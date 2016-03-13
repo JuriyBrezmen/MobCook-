@@ -4,7 +4,7 @@
     <string name="str_head">Welcome to MobCook!</string>
     <string name="str_done">Search</string>
     <string name="str_title">TITLE</string>
-    <string name="str_ingredients">Ingredients,ingredients,</string>
+    <string name="str_ingredients">Ingredients:</string>
     <string name="str_tutorial">tutorial tutorial tutorial tutorial tutorial tutorial tutorial tutorial</string>
     <string name="str_potato">Potato</string>
     <string name="str_tomatoes">Tomatoes</string>
