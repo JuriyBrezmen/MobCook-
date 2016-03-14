@@ -6,13 +6,20 @@
     <string name="str_title">TITLE</string>
     <string name="str_ingredients">Ingredients:</string>
     <string name="str_tutorial">tutorial tutorial tutorial tutorial tutorial tutorial tutorial tutorial</string>
-    <string name="str_potato">Potato</string>
-    <string name="str_tomatoes">Tomatoes</string>
-    <string name="str_cheese">Cheese</string>
-    <string name="str_carrot">Carrot</string>
-    <string name="str_salad">Salad</string>
+    <string name="str_arugula">Arugula</string>
+    <string name="str_bacon">Bacon</string>
+    <string name="str_beans">Beans</string>
+    <string name="str_bread">Bread</string>
+    <string name="str_butter">Butter</string>
+    <string name="str_chickenBreasts">Chicken breasts</string>
+    <string name="str_egg">Egg</string>
+    <string name="str_fetaCheese">Feta cheese</string>
+    <string name="str_garlic">Garlic</string>
+    <string name="str_lemon">Lemon</string>
     <string name="str_onion">Onion</string>
-    <string name="str_milk">Milk</string>
+    <string name="str_potato">Potato</string>
+    <string name="str_swissChard">Swiss chard</string>
+
 
     <string name="tutorialPuree">Put the potatoes, whole, in a pot and cover with cold water. Salt the water. Bring to
         a boil, and simmer until very tender, about 30 minutes, depending on size.
@@ -22,6 +29,53 @@
         setting over a large pot. Beat in the butter a piece at a time. Bring the milk to a boil and beat it in, splash
         by splash, until completely absorbed. You are looking for a very soft, fine puree, not unlike baby food! Check
         the seasonings, and serve.</string>
+
+    <string name="tutorialBakedPecorinoChicken">5 slices sandwich bread.
+    1/2cup grated pecorino (2 ounces).
+    2tablespoons unsalted butter, melted.
+    Kosher salt and black pepper.
+    4 6-ounce boneless, skinless chicken breasts.
+    1tablespoon olive oil.
+    2 bunches Swiss chard, stems discarded and leaves cut into 1-inch strips Heat oven to 400° F. In a food processor,
+    pulse the bread until coarse crumbs form (you should have about 2 cups). Add the pecorino, butter, ½ teaspoon salt,
+        and ¼ teaspoon pepper and pulse once or twice to moisten.
+    Place the chicken in an 8-inch baking dish; season with ½ teaspoon salt and ¼ teaspoon pepper and sprinkle with the
+        bread crumb mixture. Cover with foil and bake until cooked through, 15 to 20 minutes. Uncover and bake until
+        crumbs are golden, 3 to 5 minutes.
+    Meanwhile, heat the oil in a large skillet over medium-high heat. Add the chard, ½ teaspoon salt, and ¼ teaspoon
+        pepper. Cook, tossing, until tender, 3 to 4 minutes. Serve with the chicken.</string>
+
+    <string name="tutorialRocketbeans">4 slices bacon, sliced crosswise into 1/2-inch pieces 1 tablespoon olive oil 1
+        (15 ounce) jar butter
+        beans, drained and rinsed 1 pinch salt and freshly ground black pepper to taste 3 cloves garlic, minced 2 cups
+        arugula, coarsely chopped 1/2 lemon, juiced. Cook bacon in olive oil in a large skillet over medium heat until
+        crisp, about 8 minutes. Pour butter beans into bacon and drippings; toss lightly. Season with salt and black
+        pepper; cook 3 more minutes to blend flavors.
+        Stir garlic into beans and cook just until fragrant, about 30 seconds. Toss arugula into mixture and cook until
+        wilted; remove from heat. Stir in lemon juice.</string>
+
+    <string name="tutorialBaconFetaBeans">8 slices bacon - cooked, crumbled and divided 1 (16 ounce) package frozen cut
+        green beans 1 teaspoon minced garlic 4 ounces crumbled feta cheese, divided 1/2 teaspoon onion powder 1/8
+        teaspoon ground black pepper 2 tablespoons water. Place bacon in a large, deep skillet. Cook over medium
+        high heat until evenly browned but only slightly crisp. Drain grease, leaving a small amount in the skillet
+        for later use. Crumble bacon, reserving 2 tablespoons for garnish, and set aside.
+        Cook frozen beans in a covered, microwavable dish for about 3 minutes until thawed, but not fully cooked.
+        Drain liquid, pat dry, and set aside.
+        Reheat skillet with residual bacon grease over medium-high heat. Stir in bacon and garlic until garlic is
+        lightly golden. Add green beans and feta cheese, and season with onion powder and black pepper. Cook and
+        stir until most of the feta cheese has melted, about 2 minutes. Transfer to a serving dish, and garnish with
+        remaining feta cheese and crumbled bacon. Serve hot.</string>
+
+    <string name="tutorialPotatoPancakes">1 cup cold water 1 egg, beaten 1/2 teaspoon salt 3/4 cup dry potato flakes 1
+        tablespoon chopped chives 1 pinch freshly ground black pepper 1 pinch cayenne pepper, or to taste 1 tablespoon
+        vegetable oil 1 tablespoon butter 1/4 cup sour cream for garnish 1 tablespoon chopped chives, divided.
+        Whisk together water, egg and salt in a large bowl until salt has dissolved. Stir in dry potato flakes until
+        incorporated. Stir in 1 tablespoon of chopped chives; season with black pepper and cayenne pepper. Heat oil
+        and butter in a large skillet over medium-high heat. Swirl the pan to combine. Divide potato mixture into four
+        equal portions and shape into pancakes. Place the pancakes in the pan and reduce heat to medium. Cook until a
+        well-browned crust has formed onto the bottom of the pancakes, about 10 minutes. Flip each pancake and flatten
+        slightly. Cook until other sides are browned, 7 to 8 more minutes. Transfer to plate; top each pancake with a
+        dollop of sour cream and sprinkle each with 3/4 teaspoon chives.</string>
 
 
 </resources>

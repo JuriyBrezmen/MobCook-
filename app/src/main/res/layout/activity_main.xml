@@ -47,7 +47,7 @@
                 android:paddingLeft="12dp"
                 android:paddingTop="8dp"
                 android:textColor="#616161"
-                android:text="@string/str_potato"/>
+                android:text="@string/str_arugula"/>
 
             <CheckBox
                 android:id="@+id/checkBox2"
@@ -57,7 +57,7 @@
                 android:paddingLeft="12dp"
                 android:textColor="#616161"
                 android:paddingTop="8dp"
-                android:text="@string/str_tomatoes"/>
+                android:text="@string/str_bacon"/>
 
             <CheckBox
                 android:id="@+id/checkBox3"
@@ -67,27 +67,17 @@
                 android:paddingLeft="12dp"
                 android:textColor="#616161"
                 android:paddingTop="8dp"
-                android:text="@string/str_carrot"/>
+                android:text="@string/str_beans"/>
 
             <CheckBox
-                    android:id="@+id/checkBox7"
+                    android:id="@+id/checkBox4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
                     android:paddingLeft="12dp"
                     android:textColor="#616161"
                     android:paddingTop="8dp"
-                    android:text="@string/str_milk"/>
-
-            <CheckBox
-                android:id="@+id/checkBox4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="12dp"
-                android:textColor="#616161"
-                android:paddingTop="8dp"
-                android:text="@string/str_cheese"/>
+                    android:text="@string/str_bread"/>
 
             <CheckBox
                 android:id="@+id/checkBox5"
@@ -97,7 +87,7 @@
                 android:paddingLeft="12dp"
                 android:textColor="#616161"
                 android:paddingTop="8dp"
-                android:text="@string/str_salad"/>
+                android:text="@string/str_butter"/>
 
             <CheckBox
                 android:id="@+id/checkBox6"
@@ -105,9 +95,79 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="12dp"
+                android:textColor="#616161"
+                android:paddingTop="8dp"
+                android:text="@string/str_chickenBreasts"/>
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
                 android:paddingTop="8dp"
                 android:textColor="#616161"
-                android:text="@string/str_onion"/>
+                android:text="@string/str_egg"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_fetaCheese"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_garlic"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_lemon"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_onion"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_potato"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_swissChard"/>
 
             <Button
                 android:id="@+id/button_search"
