@@ -15,7 +15,6 @@ import java.util.ArrayList;
 public class RecipeListActivity extends Activity {
 
     public static final String KEY_RECIPE = "KEY_RECIPE";
-    ArrayList<Recipe> searchResList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +25,10 @@ public class RecipeListActivity extends Activity {
         ArrayList<String> selectedIngredients = getIntent().getStringArrayListExtra(MainActivity.KEY_INGREDIENTS);
         final ArrayList<Recipe> chosenRecipes = filter(selectedIngredients);
 
-      /*  if (searchResList.isEmpty()) {
+        if (chosenRecipes.isEmpty()) {
             Toast.makeText(this, "There is no recipe with chosen ingredients",
                     Toast.LENGTH_LONG).show();
-        }*/
+        }
 
         ArrayAdapter<Recipe> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, chosenRecipes);
@@ -66,7 +65,6 @@ public class RecipeListActivity extends Activity {
             }
 
         }
-        searchResList = availableRecipe;
         return availableRecipe;
     }
 }
