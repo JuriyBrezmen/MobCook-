@@ -19,7 +19,12 @@ public class MainActivity extends Activity {
     private CheckBox checkBox5;
     private CheckBox checkBox6;
     private CheckBox checkBox7;
-
+    private CheckBox checkBox8;
+    private CheckBox checkBox9;
+    private CheckBox checkBox10;
+    private CheckBox checkBox11;
+    private CheckBox checkBox12;
+    private CheckBox checkBox13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +38,12 @@ public class MainActivity extends Activity {
         checkBox5 = (CheckBox) findViewById(R.id.checkBox5);
         checkBox6 = (CheckBox) findViewById(R.id.checkBox6);
         checkBox7 = (CheckBox) findViewById(R.id.checkBox7);
+        checkBox8 = (CheckBox) findViewById(R.id.checkBox8);
+        checkBox9 = (CheckBox) findViewById(R.id.checkBox9);
+        checkBox10 = (CheckBox) findViewById(R.id.checkBox10);
+        checkBox11 = (CheckBox) findViewById(R.id.checkBox11);
+        checkBox12 = (CheckBox) findViewById(R.id.checkBox12);
+        checkBox13 = (CheckBox) findViewById(R.id.checkBox13);
 
 
 
@@ -52,30 +63,55 @@ public class MainActivity extends Activity {
         ArrayList<String> ingredientsList = new ArrayList<>();
 
         if (checkBox1.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_potato));
+            ingredientsList.add(getResources().getString(R.string.str_arugula));
         }
 
         if (checkBox2.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_tomatoes));
+            ingredientsList.add(getResources().getString(R.string.str_bacon));
         }
 
         if (checkBox3.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_carrot));
+            ingredientsList.add(getResources().getString(R.string.str_beans));
         }
 
         if (checkBox4.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_cheese));
+            ingredientsList.add(getResources().getString(R.string.str_bread));
         }
 
         if (checkBox5.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_salad));
+            ingredientsList.add(getResources().getString(R.string.str_butter));
         }
 
         if (checkBox6.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_chickenBreasts));
+        }
+
+        if (checkBox7.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_egg));
+        }
+
+        if (checkBox8.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_fetaCheese));
+        }
+
+        if (checkBox9.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_garlic));
+        }
+
+        if (checkBox10.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_lemon));
+        }
+
+        if (checkBox11.isChecked()) {
             ingredientsList.add(getResources().getString(R.string.str_onion));
         }
-        if (checkBox7.isChecked()) {
-            ingredientsList.add(getResources().getString(R.string.str_milk));
+
+        if (checkBox12.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_potato));
+        }
+
+        if (checkBox13.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_swissChard));
         }
 
         if (!ingredientsList.isEmpty()) {
