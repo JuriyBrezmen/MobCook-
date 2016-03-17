@@ -49,10 +49,6 @@ public class MainActivity extends Activity {
         checkBox14 = (CheckBox) findViewById(R.id.checkBox14);
         checkBox15 = (CheckBox) findViewById(R.id.checkBox15);
 
-
-
-
-
         Button buttonSearch = (Button) findViewById(R.id.button_search);
         buttonSearch.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,7 +57,6 @@ public class MainActivity extends Activity {
             }
         });
     }
-
 
     private void onSearchButtonClick() {
         ArrayList<String> ingredientsList = new ArrayList<>();

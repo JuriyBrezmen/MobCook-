@@ -24,9 +24,7 @@ public class DetailsActivity extends Activity {
         ingredients = (TextView) findViewById(R.id.recipe_ingredients);
         image = (ImageView) findViewById(R.id.recipe_image);
 
-
         Recipe recipe = (Recipe) getIntent().getParcelableExtra(RecipeListActivity.KEY_RECIPE);  //приймаєм
-
 
         title.setText(recipe.getTitle());
         image.setImageResource(recipe.getImage());

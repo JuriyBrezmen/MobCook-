@@ -13,7 +13,7 @@ public class RecipeStorage {
         ArrayList<String> need1 = new ArrayList<>();
         need1.add(context.getResources().getString(R.string.str_potato));
         recipe1.setIngredients(need1);
-        recipe1.setImage(R.drawable.puree);
+        recipe1.setImage(R.drawable.imgpuree);
         recipe1.setTutorial(context.getResources().getString(R.string.tutorialPuree));
         //2
         Recipe recipe2 = new Recipe();
@@ -24,7 +24,7 @@ public class RecipeStorage {
         need2.add(context.getResources().getString(R.string.str_chickenBreasts));
         need2.add(context.getResources().getString(R.string.str_swissChard));
         recipe2.setIngredients(need2);
-        recipe2.setImage(R.drawable.bakedpecorinochicken);
+        recipe2.setImage(R.drawable.imgbakedpecorinochicken);
         recipe2.setTutorial(context.getResources().getString(R.string.tutorialBakedPecorinoChicken));
         //3
         Recipe recipe3 = new Recipe();
@@ -36,7 +36,7 @@ public class RecipeStorage {
         need3.add(context.getResources().getString(R.string.str_arugula));
         need3.add(context.getResources().getString(R.string.str_lemon));
         recipe3.setIngredients(need3);
-        recipe3.setImage(R.drawable.bakedpecorinochicken);
+        recipe3.setImage(R.drawable.imgbakedpecorinochicken);
         recipe3.setTutorial(context.getResources().getString(R.string.tutorialBakedPecorinoChicken));
         //4
         Recipe recipe4 = new Recipe();
@@ -48,7 +48,7 @@ public class RecipeStorage {
         need4.add(context.getResources().getString(R.string.str_fetaCheese));
         need4.add(context.getResources().getString(R.string.str_onion));
         recipe4.setIngredients(need4);
-        recipe4.setImage(R.drawable.baconfetabeans);
+        recipe4.setImage(R.drawable.imgbaconfetabeans);
         recipe4.setTutorial(context.getResources().getString(R.string.tutorialBaconFetaBeans));
         //5
         Recipe recipe5 = new Recipe();
@@ -59,7 +59,7 @@ public class RecipeStorage {
         need5.add(context.getResources().getString(R.string.str_onion));
         need5.add(context.getResources().getString(R.string.str_butter));
         recipe5.setIngredients(need5);
-        recipe5.setImage(R.drawable.potatopancakes);
+        recipe5.setImage(R.drawable.imgpotatopancakes);
         recipe5.setTutorial(context.getResources().getString(R.string.tutorialPotatoPancakes));
         //6
         Recipe recipe6 = new Recipe();
@@ -69,7 +69,7 @@ public class RecipeStorage {
         need6.add(context.getResources().getString(R.string.str_apple));
         need6.add(context.getResources().getString(R.string.str_cinnamon));
         recipe6.setIngredients(need6);
-        recipe6.setImage(R.drawable.sauteedapples);
+        recipe6.setImage(R.drawable.imgsauteedapples);
         recipe6.setTutorial(context.getResources().getString(R.string.tutorialSauteedApples));
         //7
         Recipe recipe7 = new Recipe();
@@ -78,7 +78,7 @@ public class RecipeStorage {
         need7.add(context.getResources().getString(R.string.str_apple));
         need7.add(context.getResources().getString(R.string.str_cinnamon));
         recipe7.setIngredients(need7);
-        recipe7.setImage(R.drawable.applesauce);
+        recipe7.setImage(R.drawable.imgapplesauce);
         recipe7.setTutorial(context.getResources().getString(R.string.tutorialApplesauce));
         //8
         Recipe recipe8 = new Recipe();
@@ -86,7 +86,7 @@ public class RecipeStorage {
         ArrayList<String> need8 = new ArrayList<>();
         need8.add(context.getResources().getString(R.string.str_egg));
         recipe8.setIngredients(need8);
-        recipe8.setImage(R.drawable.friedeggs);
+        recipe8.setImage(R.drawable.imgfriedeggs);
         recipe8.setTutorial(context.getResources().getString(R.string.tutorialFriedEggs));
         //9
         Recipe recipe9 = new Recipe();
@@ -94,7 +94,7 @@ public class RecipeStorage {
         ArrayList<String> need9 = new ArrayList<>();
         need9.add(context.getResources().getString(R.string.str_bread));
         recipe9.setIngredients(need9);
-        recipe9.setImage(R.drawable.toast);
+        recipe9.setImage(R.drawable.imgimgtoast);
         recipe9.setTutorial(context.getResources().getString(R.string.tutorialApplesauce));
         //10
         Recipe recipe10 = new Recipe();
@@ -104,7 +104,7 @@ public class RecipeStorage {
         need10.add(context.getResources().getString(R.string.str_bread));
         need10.add(context.getResources().getString(R.string.str_chickenBreasts));
         recipe10.setIngredients(need10);
-        recipe10.setImage(R.drawable.garlicchicken);
+        recipe10.setImage(R.drawable.imggarlicchicken);
         recipe10.setTutorial(context.getResources().getString(R.string.tutorialBakedPecorinoChicken));
         //end
         recipeList.add(recipe1);

@@ -26,7 +26,6 @@
         android:background="#7B1FA2"
         android:textSize="32sp"/>
 
-
     </LinearLayout>
 
     <ScrollView
@@ -70,7 +69,6 @@
         android:id="@+id/recipe_tutorial"
         android:textColor="#212121"
         android:padding="6dp"/>
-
 
     </LinearLayout>
     </ScrollView>
