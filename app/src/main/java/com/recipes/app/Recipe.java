@@ -56,7 +56,6 @@ public class Recipe implements Parcelable{
         return 0;
     }
 
-    // упаковываем объект в Parcel
     public void writeToParcel(Parcel parcel, int flags) {
         parcel.writeString(title);
         parcel.writeStringList(ingredients);
@@ -65,7 +64,6 @@ public class Recipe implements Parcelable{
     }
 
     public static final Parcelable.Creator<Recipe> CREATOR = new Parcelable.Creator<Recipe>() {
-        // распаковываем объект из Parcel
         public Recipe createFromParcel(Parcel in) {
             return new Recipe(in);
         }
@@ -75,7 +73,6 @@ public class Recipe implements Parcelable{
         }
     };
 
-    // конструктор, считывающий данные из Parcel
     private Recipe(Parcel parcel) {
         title = parcel.readString();
         ingredients = new ArrayList<>();

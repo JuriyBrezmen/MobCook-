@@ -48,7 +48,15 @@
                 android:paddingTop="8dp"
                 android:textColor="#616161"
                 android:text="@string/str_arugula"/>
-
+            <CheckBox
+                    android:id="@+id/checkBox14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#616161"
+                    android:text="@string/str_apple"/>
             <CheckBox
                 android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
@@ -88,6 +96,16 @@
                 android:textColor="#616161"
                 android:paddingTop="8dp"
                 android:text="@string/str_butter"/>
+
+            <CheckBox
+                    android:id="@+id/checkBox15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:textColor="#616161"
+                    android:paddingTop="8dp"
+                    android:text="@string/str_cinnamon"/>
 
             <CheckBox
                 android:id="@+id/checkBox6"

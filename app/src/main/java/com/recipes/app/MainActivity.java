@@ -25,6 +25,8 @@ public class MainActivity extends Activity {
     private CheckBox checkBox11;
     private CheckBox checkBox12;
     private CheckBox checkBox13;
+    private CheckBox checkBox14;
+    private CheckBox checkBox15;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +46,8 @@ public class MainActivity extends Activity {
         checkBox11 = (CheckBox) findViewById(R.id.checkBox11);
         checkBox12 = (CheckBox) findViewById(R.id.checkBox12);
         checkBox13 = (CheckBox) findViewById(R.id.checkBox13);
+        checkBox14 = (CheckBox) findViewById(R.id.checkBox14);
+        checkBox15 = (CheckBox) findViewById(R.id.checkBox15);
 
 
 
@@ -112,6 +116,14 @@ public class MainActivity extends Activity {
 
         if (checkBox13.isChecked()) {
             ingredientsList.add(getResources().getString(R.string.str_swissChard));
+        }
+
+        if (checkBox14.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_apple));
+        }
+
+        if (checkBox15.isChecked()) {
+            ingredientsList.add(getResources().getString(R.string.str_cinnamon));
         }
 
         if (!ingredientsList.isEmpty()) {

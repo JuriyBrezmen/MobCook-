@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Recipes</string>
     <string name="str_choose">Choose available ingredients:</string>
     <string name="str_head">Welcome to MobCook!</string>
@@ -7,10 +8,12 @@
     <string name="str_ingredients">Ingredients:</string>
     <string name="str_tutorial">tutorial tutorial tutorial tutorial tutorial tutorial tutorial tutorial</string>
     <string name="str_arugula">Arugula</string>
+    <string name="str_apple">Apple</string>
     <string name="str_bacon">Bacon</string>
     <string name="str_beans">Beans</string>
     <string name="str_bread">Bread</string>
     <string name="str_butter">Butter</string>
+    <string name="str_cinnamon">Cinnamon</string>
     <string name="str_chickenBreasts">Chicken breasts</string>
     <string name="str_egg">Egg</string>
     <string name="str_fetaCheese">Feta cheese</string>
@@ -19,7 +22,6 @@
     <string name="str_onion">Onion</string>
     <string name="str_potato">Potato</string>
     <string name="str_swissChard">Swiss chard</string>
-
 
     <string name="tutorialPuree">Put the potatoes, whole, in a pot and cover with cold water. Salt the water. Bring to
         a boil, and simmer until very tender, about 30 minutes, depending on size.
@@ -77,5 +79,22 @@
         slightly. Cook until other sides are browned, 7 to 8 more minutes. Transfer to plate; top each pancake with a
         dollop of sour cream and sprinkle each with 3/4 teaspoon chives.</string>
 
+
+    <string name="tutorialApplesauce">4 apples - peeled, cored and chopped 3/4 cup water 1/4 cup white sugar 1/2
+        teaspoon ground cinnamon. In a saucepan, combine apples, water, sugar, and cinnamon. Cover, and cook over
+        medium heat for 15 to 20 minutes, or until apples are soft. Allow to cool, then mash with a fork or potato
+        masher.</string>
+
+    <string name="tutorialSauteedApples">1/4 cup butter 4 large tart apples - peeled, cored and sliced 1/4 inch thick 2
+        teaspoons cornstarch 1/2 cup cold water 1/2 cup brown sugar 1/2 teaspoon ground cinnamon. In a large skillet or
+        saucepan, melt butter over medium heat; add apples. Cook, stirring constantly, until apples are almost tender,
+        about 6 to 7 minutes. Dissolve cornstarch in water; add to skillet. Stir in brown sugar and cinnamon. Boil for
+        2 minutes, stirring occasionally. Remove from heat and serve warm.</string>
+
+    <string name="tutorialFriedEggs">1) For Over-Easy or Over-Hard Eggs: HEAT 2 tsp. butter in nonstick skillet over
+        medium-high heat until hot. 2) BREAK eggs and SLIP into pan, 1 at a time. IMMEDIATELY reduce heat to
+        low. 3) COOK SLOWLY until whites are completely set and yolks begin to thicken but are not hard. SLIDE turner
+        under each egg and carefully FLIP it over in pan. COOK second side to desired doneness. SPRINKLE with salt and
+        pepper. SERVE immediately.</string>
 
 </resources>
